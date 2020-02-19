@@ -5,7 +5,13 @@
 	<artifactId>hatania-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<modules>
+		<module>hatania-common</module>
+		<module>hatania-app</module>
 		<module>hatania-web</module>
+		<module>hatania-service</module>
 	</modules>
 </project>
